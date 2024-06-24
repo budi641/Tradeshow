@@ -2495,3 +2495,19 @@ Make sure 'BP_VRGamePawn' has been compiled for  Get Finger Curls and Splays
 [2024.06.24-18.38.14:618][426]PIE: Play in editor total start time 0.529 seconds.
 [2024.06.24-18.38.14:713][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
 [2024.06.24-18.38.14:717][427]LogBlueprintUserMessages: [BP_NonVRGamePawnInputHandler_C_0] WARNING: NonVR Input Handler is active!
+[2024.06.24-18.38.24:247][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.24-18.38.24:247][449]LogWorld: BeginTearingDown for /Game/VRGK/Demo/Maps/MuseumV3/UEDPIE_0_Map_MuseumV3
+[2024.06.24-18.38.24:253][449]LogWorld: UWorld::CleanupWorld for Map_MuseumV3, bSessionEnded=true, bCleanupResources=true
+[2024.06.24-18.38.24:261][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-18.38.24:265][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.24-18.38.24:272][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-18.38.24:295][449]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.24-18.38.24:296][449]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.06.24-18.38.24:296][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.24-18.38.24:298][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.24-18.38.24:302][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.24-18.38.24:317][449]LogSlate: Slate User Unregistered.  User Index 8
+[2024.06.24-18.38.24:317][449]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.06.24-18.38.24:319][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.06.24-18.38.24:385][450]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.06.24-18.38.24:403][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
