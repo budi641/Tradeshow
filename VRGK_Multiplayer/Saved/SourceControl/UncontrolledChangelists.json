@@ -12,7 +12,10 @@
 				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Demo/Maps/MuseumV3/Map_MV3_StartArea.umap",
 				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Saves/BP_PersistentSaveGame.uasset",
 				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.uasset",
-				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn_PhysicsRig.uasset"
+				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn_PhysicsRig.uasset",
+				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/Hand/BP_VRHand.uasset",
+				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Core/BP_DemoGameMode.uasset",
+				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/NonVR/BP_NonVRGamePawnInputHandler.uasset"
 			]
 		}
 	]
