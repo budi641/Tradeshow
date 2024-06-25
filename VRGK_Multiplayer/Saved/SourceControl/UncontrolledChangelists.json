@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3.umap",
+				"M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn.uasset",
+				"M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/NonVR/BP_NonVRGamePawnInputHandler.uasset",
+				"M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/Hand/BP_VRHand.uasset",
+				"M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Demo/Blueprints/Props/BP_Table.uasset",
 				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Anims/PlayerFullBody/CRig_VRAvatar_EpicBody.uasset",
 				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn.uasset",
 				"D:/Marketplace2/EdiphiDemo/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn.uasset",
