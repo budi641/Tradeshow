@@ -1988,3 +1988,1072 @@ Context 1/2
 [2024.06.26-20.04.24:772][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/NonVR/BP_NonVRGamePawnInputHandler.BP_NonVRGamePawnInputHandler
 [2024.06.26-20.04.24:772][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Core/BP_VRCharacter_PC.BP_VRCharacter_PC
 [2024.06.26-20.04.24:772][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Core/BP_DemoGameMode.BP_DemoGameMode
+[2024.06.26-20.07.36:743][555]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/VRGK_Multiplayer.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Intermediate/TurnkeyReport_2.log" -log="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Intermediate/TurnkeyLog_2.log" -project="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/VRGK_Multiplayer.uproject"  -Device=Android_ASTC@1WMHHA6G0E2157+Android_Multi@1WMHHA6G0E2157'
+[2024.06.26-20.07.36:743][555]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""K:/Unreal Engine/UE_5.3/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/VRGK_Multiplayer.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Intermediate/TurnkeyReport_2.log" -log="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Intermediate/TurnkeyLog_2.log" -project="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/VRGK_Multiplayer.uproject"  -Device=Android_ASTC@1WMHHA6G0E2157+Android_Multi@1WMHHA6G0E2157" -nocompile -nocompileuat ]
+[2024.06.26-20.07.37:674][627]LogTurnkeySupport: Completed device detection: Code = 0
+[2024.06.26-20.07.45:816][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.06.26-20.07.49:100][429]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: Total job queries 262, among them cache hits 32 (12.21%)
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: Tracking 230 distinct input hashes that result in 136 distinct outputs (59.13%)
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: RAM used: 911.24 KiB of 1.20 GiB budget. Usage: 0.07%
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.26-20.10.43:462][679]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.10.44:499][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.10.57:943][381]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UHeadMountedDisplayFunctionLibrary::IsHeadMountedDisplayEnabled' [The specified module could not be found.]
+[2024.06.26-20.13.46:442][334]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.06.26-20.13.46:443][334]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.06.26-20.14.31:336][389]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.06.26-20.16.14:184][449]BlueprintLog: New page: Compile BP_VRBasePawn
+[2024.06.26-20.16.14:819][449]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.16.14:819][449]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Target  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.16.14:819][449]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  None VR Actor  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.16.14:819][449]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Spawn Transform  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.16.14:819][449]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] Could not find a function named "Switch VR" in 'BP_VRCharacter_PC_C'.
+Make sure 'BP_VRCharacter_PC_C' has been compiled for  Switch VR
+[2024.06.26-20.16.15:195][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:195][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:196][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:196][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:196][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:196][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:199][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:199][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:256][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2024.06.26-20.16.15:439][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:439][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:518][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:518][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:659][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:659][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:683][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:683][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:781][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:781][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:799][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:799][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:817][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:817][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:839][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.15:839][449]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.16.18:459][561]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.06.26-20.16.18:470][561]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.06.26-20.16.20:399][685]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.16.20:448][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.06.26-20.16.23:792][685]LogSlate: Window 'Save Content' being destroyed
+[2024.06.26-20.16.23:821][685]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.26-20.16.23:995][685]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn
+[2024.06.26-20.16.23:996][685]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRBasePawnDDB6A09E49CC54932BED01A36F3DED9A.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.uasset'
+[2024.06.26-20.16.24:018][685]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 335 ms)
+[2024.06.26-20.16.24:044][685]LogAutomationController: Ignoring very large delta of 3.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.16.24:053][686]AssetCheck: New page: Asset Save: BP_VRBasePawn
+[2024.06.26-20.16.24:053][686]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.BP_VRBasePawn
+[2024.06.26-20.17.26:665][994]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.18.01:125][ 97]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.18.56:675][182]BlueprintLog: New page: Compile BP_VRBasePawn
+[2024.06.26-20.18.57:075][182]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.18.57:075][182]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Target  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.18.57:075][182]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  None VR Actor  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.18.57:075][182]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Spawn Transform  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.18.57:075][182]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] Could not find a function named "Switch VR" in 'BP_VRCharacter_PC_C'.
+Make sure 'BP_VRCharacter_PC_C' has been compiled for  Switch VR
+[2024.06.26-20.18.57:456][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:456][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:457][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:457][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:459][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:459][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:462][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:462][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:517][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2024.06.26-20.18.57:602][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:602][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:653][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:653][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:685][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:685][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:708][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:708][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:800][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:800][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:817][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:817][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:836][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:837][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:858][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.57:858][182]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.18.58:806][231]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.18.58:857][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2024.06.26-20.19.00:114][231]LogSlate: Window 'Save Content' being destroyed
+[2024.06.26-20.19.00:128][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.26-20.19.00:286][231]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn
+[2024.06.26-20.19.00:287][231]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRBasePawn71B3C48D42446225E65FCB9689DE1446.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.uasset'
+[2024.06.26-20.19.00:298][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 506 ms)
+[2024.06.26-20.19.00:326][232]AssetCheck: New page: Asset Save: BP_VRBasePawn
+[2024.06.26-20.19.00:326][232]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.BP_VRBasePawn
+[2024.06.26-20.19.44:414][475]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.19.57:475][514]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: Total job queries 275, among them cache hits 33 (12.00%)
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: Tracking 242 distinct input hashes that result in 139 distinct outputs (57.44%)
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: RAM used: 950.41 KiB of 1.20 GiB budget. Usage: 0.08%
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.26-20.20.00:838][573]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.20.19:431][113]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Blueprints/Subtitles/BP_VRSubtitles.BP_VRSubtitles
+[2024.06.26-20.20.19:432][113]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.20.19:432][113]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.20.26:980][240]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.20.26:980][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.20.27:219][240]LogAutomationController: Ignoring very large delta of 2.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.20.28:235][271]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Blueprints/Player/InteractionLaser/BP_PlayerInteractionLaserPointer.BP_PlayerInteractionLaserPointer
+[2024.06.26-20.20.28:236][271]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.20.28:236][271]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.20.34:018][398]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.20.34:018][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.20.40:362][573]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Blueprints/Player/BP_VRPlayerTeleportArc.BP_VRPlayerTeleportArc
+[2024.06.26-20.20.40:363][573]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.20.40:363][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.20.46:088][705]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.20.46:088][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.20.53:904][919]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.20.56:291][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Demo/Blueprints/Interactables/SimpleGuns/BP_GravityGun.BP_GravityGun
+[2024.06.26-20.20.56:292][992]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.20.56:292][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.21.05:764][165]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.21.20:014][165]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.21.43:295][165]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.21.43:295][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.21.43:570][165]LogAutomationController: Ignoring very large delta of 40.72 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.21.43:875][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2024.06.26-20.21.43:888][166]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3' took 0.213
+[2024.06.26-20.21.43:897][166]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn] ([2] browsable assets)...
+[2024.06.26-20.21.43:897][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn]
+[2024.06.26-20.21.44:121][166]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn_Auto2
+[2024.06.26-20.21.44:122][166]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRBasePawn_Auto2D95A67BB4424A2728074C2AED2EAB44B.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/Autosaves/Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn_Auto2.uasset'
+[2024.06.26-20.21.44:124][166]LogFileHelpers: Auto-saving content packages took 0.229
+[2024.06.26-20.21.46:750][219]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Demo/Blueprints/Interactables/SimpleGuns/BP_GravityGun.BP_GravityGun
+[2024.06.26-20.21.46:750][219]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.21.46:751][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.21.51:648][458]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Demo/Blueprints/Platforms/BP_ConveyorBelt.BP_ConveyorBelt
+[2024.06.26-20.21.51:648][458]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.21.51:649][458]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.21.55:769][670]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Demo/Blueprints/StabTools/BP_Bow.BP_Bow
+[2024.06.26-20.21.55:770][670]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.21.55:770][670]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.22.02:544][ 11]LogStaticMesh: Display: Building static mesh SM_GF_SubCube_PivotBottom...
+[2024.06.26-20.22.02:544][ 11]LogStaticMesh: Display: Building static mesh SM_GF_SubCube...
+[2024.06.26-20.22.02:559][ 11]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Blueprints/Systems/GravityFields/Areas/BP_GF_DirectionalSplineGravityArea_Solid.BP_GF_DirectionalSplineGravityArea_Solid
+[2024.06.26-20.22.02:560][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.22.02:560][ 11]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.22.02:595][ 11]LogStaticMesh: Built static mesh [0.05s] /Game/VRGK/Meshes/GravityFields/SM_GF_SubCube.SM_GF_SubCube
+[2024.06.26-20.22.02:595][ 11]LogStaticMesh: Built static mesh [0.05s] /Game/VRGK/Meshes/GravityFields/SM_GF_SubCube_PivotBottom.SM_GF_SubCube_PivotBottom
+[2024.06.26-20.22.05:434][136]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.22.05:434][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.22.07:052][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.06.26-20.22.07:052][213]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.22.07:052][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.22.07:793][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.06.26-20.22.07:793][248]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.22.07:793][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.22.09:280][324]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRGK/Demo/Blueprints/StabTools/BP_Bow.BP_Bow
+[2024.06.26-20.22.09:281][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.22.09:281][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.22.11:725][412]LogViewport: Scene viewport resized to 1301x877, mode Windowed.
+[2024.06.26-20.22.20:841][869]LogViewport: Scene viewport resized to 552x440, mode Windowed.
+[2024.06.26-20.22.21:290][869]LogViewport: Scene viewport resized to 974x616, mode Windowed.
+[2024.06.26-20.22.28:061][188]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.22.28:061][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.22.46:103][280]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.22.46:148][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.06.26-20.22.47:902][280]LogSlate: Window 'Save Content' being destroyed
+[2024.06.26-20.22.47:914][280]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.26-20.22.48:090][280]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn
+[2024.06.26-20.22.48:091][280]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRBasePawnE9D900F445E748C43ED4C8BFE476C91A.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.uasset'
+[2024.06.26-20.22.48:110][280]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 702 ms)
+[2024.06.26-20.22.48:130][280]LogAutomationController: Ignoring very large delta of 2.03 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.22.48:135][281]AssetCheck: New page: Asset Save: BP_VRBasePawn
+[2024.06.26-20.22.48:135][281]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.BP_VRBasePawn
+[2024.06.26-20.22.51:446][415]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.06.26-20.23.38:231][108]BlueprintLog: New page: Compile BP_VRBasePawn
+[2024.06.26-20.23.38:932][108]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.23.38:932][108]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Target  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.23.38:932][108]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  None VR Actor  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.23.38:933][108]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Spawn Transform  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.23.38:933][108]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] Could not find a function named "Switch VR" in 'BP_VRCharacter_PC_C'.
+Make sure 'BP_VRCharacter_PC_C' has been compiled for  Switch VR
+[2024.06.26-20.23.39:684][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:684][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:685][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:686][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:687][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:687][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:693][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:693][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.39:776][108]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2024.06.26-20.23.40:189][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:190][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:304][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:305][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:338][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:338][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:379][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:379][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:545][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:546][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:576][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:576][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:610][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:610][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:652][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.40:652][108]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.23.41:087][108]LogAutomationController: Ignoring very large delta of 2.86 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.24.27:644][362]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.24.27:730][362]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2024.06.26-20.24.49:362][239]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.24.49:408][239]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2024.06.26-20.25.46:471][866]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.25.46:515][866]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2024.06.26-20.27.03:215][419]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.03:215][419]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.03:218][419]LogViewport: Scene viewport resized to 1301x877, mode Windowed.
+[2024.06.26-20.27.10:092][672]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.10:093][672]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.10:300][672]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.10:300][672]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:134][726]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:135][726]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:177][727]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:178][727]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:215][728]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:215][728]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:256][729]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:256][729]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:295][730]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:295][730]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:335][731]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:337][731]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:372][732]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:372][732]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:410][733]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:410][733]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:448][734]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.12:448][734]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: Total job queries 281, among them cache hits 33 (11.74%)
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: Tracking 248 distinct input hashes that result in 145 distinct outputs (58.47%)
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: RAM used: 961.22 KiB of 1.20 GiB budget. Usage: 0.08%
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.26-20.27.14:746][803]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.27.15:679][827]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:679][827]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:714][828]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:714][828]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:750][829]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:750][829]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:790][830]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:790][830]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:825][831]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:825][831]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:860][832]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:860][832]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:895][833]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:895][833]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:931][834]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:931][834]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:964][835]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:964][835]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.15:999][836]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:000][836]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:035][837]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:035][837]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:072][838]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:072][838]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:105][839]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:107][839]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:141][840]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:141][840]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:174][841]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:174][841]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:202][842]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:202][842]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:238][843]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:238][843]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:281][844]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:281][844]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:321][845]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:321][845]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:356][846]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:356][846]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:399][847]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:400][847]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:453][848]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:453][848]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:494][849]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:494][849]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:524][850]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:524][850]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:561][851]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:561][851]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:600][852]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:600][852]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:635][853]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:635][853]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:668][854]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:668][854]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:707][855]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:707][855]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:738][856]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:738][856]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:774][857]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:774][857]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:814][858]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:814][858]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:845][859]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:845][859]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:881][860]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:881][860]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:916][861]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:916][861]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:943][862]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:943][862]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:975][863]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.16:977][863]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:017][864]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:017][864]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:046][865]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:046][865]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:080][866]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:080][866]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:108][867]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:108][867]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:138][868]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:138][868]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:175][869]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:175][869]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:207][870]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:207][870]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:243][871]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:243][871]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:274][872]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:274][872]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:309][873]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:309][873]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:340][874]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:340][874]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:371][875]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:371][875]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:411][876]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:411][876]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:440][877]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:440][877]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:474][878]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:474][878]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:505][879]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:505][879]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:540][880]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:540][880]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:577][881]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:577][881]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:607][882]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:607][882]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:644][883]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:644][883]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:685][884]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:685][884]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:714][885]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.17:714][885]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.23:232][102]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.23:232][102]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.23:234][102]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.23:234][102]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.23:275][102]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.23:275][102]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.24:345][157]BlueprintLog: New page: Compile BP_VRBasePawn
+[2024.06.26-20.27.24:785][157]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.24:785][157]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Target  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.24:785][157]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  None VR Actor  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.24:785][157]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Spawn Transform  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.24:785][157]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] Could not find a function named "Switch VR" in 'BP_VRCharacter_PC_C'.
+Make sure 'BP_VRCharacter_PC_C' has been compiled for  Switch VR
+[2024.06.26-20.27.25:166][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:166][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:167][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:167][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:167][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:167][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:171][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:171][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:242][157]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2024.06.26-20.27.25:329][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:329][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:347][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:347][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:481][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:481][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:542][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:542][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:633][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:633][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:650][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:650][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:670][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:670][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:692][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:692][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:910][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.25:910][157]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:471][247]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:471][247]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:510][248]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:510][248]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:545][249]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:545][249]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:574][250]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:574][250]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:604][251]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:604][251]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:633][252]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:633][252]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:659][253]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:659][253]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:683][254]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:684][254]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:714][255]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:714][255]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:743][256]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.28:744][256]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.29:023][269]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.29:023][269]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.57:765][ 59]BlueprintLog: New page: Compile BP_VRBasePawn
+[2024.06.26-20.27.58:165][ 59]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.58:165][ 59]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Target  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.58:165][ 59]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  None VR Actor  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.58:165][ 59]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] In use pin  Spawn Transform  no longer exists on node  Switch VR . Please refresh node or break links to remove pin.
+[2024.06.26-20.27.58:165][ 59]LogBlueprint: Error: [AssetLog] M:\Unreal Projects\Tradeshow\VRGK_Multiplayer\Content\VRGK\Blueprints\Player\GamePawns\BP_VRCharacterPawn.uasset: [Compiler] Could not find a function named "Switch VR" in 'BP_VRCharacter_PC_C'.
+Make sure 'BP_VRCharacter_PC_C' has been compiled for  Switch VR
+[2024.06.26-20.27.58:568][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:568][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:569][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:569][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:570][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:570][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:573][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:573][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:650][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2024.06.26-20.27.58:733][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:733][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:793][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:793][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:813][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:813][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:837][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:837][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:940][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:940][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:960][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:960][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:980][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.58:980][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.59:003][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.27.59:003][ 59]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.28.00:912][124]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.28.00:963][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.06.26-20.28.02:680][124]LogSlate: Window 'Save Content' being destroyed
+[2024.06.26-20.28.02:702][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.26-20.28.02:851][124]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn
+[2024.06.26-20.28.02:851][124]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRBasePawn364436F1499F52F5FB4133AF70E0D0AE.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.uasset'
+[2024.06.26-20.28.03:073][124]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn
+[2024.06.26-20.28.03:073][124]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRGamePawn3BB568F54F2054DC5344F590F377880C.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn.uasset'
+[2024.06.26-20.28.03:076][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.28.03:086][124]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.28.03:086][124]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.28.03:136][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn" FILE="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn.uasset" SILENT=true
+[2024.06.26-20.28.03:173][124]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn
+[2024.06.26-20.28.03:173][124]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRMenuPawn0314D285426964DC1606829C2D696D66.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn.uasset'
+[2024.06.26-20.28.03:463][124]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn
+[2024.06.26-20.28.03:463][124]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRPhysicsPawn15E7A6C74EA8902AAB3CDDAD89F535C2.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn.uasset'
+[2024.06.26-20.28.03:475][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 773 ms (total: 1.47 sec)
+[2024.06.26-20.28.03:495][124]LogAutomationController: Ignoring very large delta of 2.58 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.28.03:507][125]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.26-20.28.03:507][125]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.BP_VRBasePawn
+[2024.06.26-20.28.03:507][125]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn.BP_VRGamePawn
+[2024.06.26-20.28.03:507][125]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn.BP_VRMenuPawn
+[2024.06.26-20.28.03:507][125]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn.BP_VRPhysicsPawn
+[2024.06.26-20.28.44:463][425]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.28.44:463][425]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.28.55:210][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.26-20.28.55:210][786]BlueprintLog: Warning: Blueprint failed to compile:  BP_VRCharacterPawn
+[2024.06.26-20.28.57:174][786]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2024.06.26-20.28.57:535][786]LogAutomationController: Ignoring very large delta of 2.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.29.02:147][898]BlueprintLog: New page: Compile BP_VRCharacterPawn
+[2024.06.26-20.29.02:353][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2024.06.26-20.29.02:460][898]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2024.06.26-20.29.02:519][898]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.058 s
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: === Handled ensure: ===
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: 
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: Ensure condition failed: ParentHandle.IsValid()  [File:D:\build\++UE5\Sync\Engine\Source\Editor\SubobjectDataInterface\Private\SubobjectDataSubsystem.cpp] [Line: 309] 
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: 
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: Stack: 
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa4021cd3f UnrealEditor-SubobjectDataInterface.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa41200160 UnrealEditor-SubobjectEditor.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa4a10d2b3 UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa4a0fa355 UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa4a0dc930 UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa49f3639a UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa49f3a2e1 UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa49f39a80 UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa4ce62bae UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa4a0b7ee9 UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa4a0dd63b UnrealEditor-Kismet.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa5493aeb0 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa54a2411f UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa54b58672 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa54b29d8a UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa54bca5fa UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa54bcdf65 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa54bef3e8 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa54943b5a UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa549ae365 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa5499b562 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa5498e2fa UnrealEditor-Slate.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa89517dc6 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa894fb83f UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa8951ab29 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa894f32e3 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffaed4c89a1 USER32.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffaed4c8461 USER32.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffa8951c226 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ff7337c76f2 UnrealEditor.exe!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ff7337ed28c UnrealEditor.exe!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ff7337ed37a UnrealEditor.exe!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ff7337f0854 UnrealEditor.exe!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ff733806984 UnrealEditor.exe!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ff733809d7a UnrealEditor.exe!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffaec36257d KERNEL32.DLL!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: [Callstack] 0x00007ffaed82af28 ntdll.dll!UnknownFunction []
+[2024.06.26-20.29.02:520][898]LogOutputDevice: Error: 
+[2024.06.26-20.29.02:522][898]LogStats:                SubmitErrorReport -  0.000 s
+[2024.06.26-20.29.04:643][898]LogStats:                    SendNewReport -  2.121 s
+[2024.06.26-20.29.04:643][898]LogStats:             FDebug::EnsureFailed -  2.181 s
+[2024.06.26-20.29.05:062][898]LogAutomationController: Ignoring very large delta of 2.92 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.29.06:693][949]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.26-20.29.06:713][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.26-20.29.06:713][949]PIE: New page: PIE session: Map_MuseumV3 (Jun 26, 2024, 10:29:06 PM)
+[2024.06.26-20.29.06:714][949]LogPlayLevel: Creating play world package: /Game/VRGK/Demo/Maps/MuseumV3/UEDPIE_0_Map_MuseumV3
+[2024.06.26-20.29.07:037][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.322739s)
+[2024.06.26-20.29.07:037][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3.Map_MuseumV3 to /Game/VRGK/Demo/Maps/MuseumV3/UEDPIE_0_Map_MuseumV3.Map_MuseumV3 (0.322821s)
+[2024.06.26-20.29.07:067][949]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2024.06.26-20.29.07:087][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.29.07:087][949]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.29.07:089][949]LogAIModule: Creating AISystem for world Map_MuseumV3
+[2024.06.26-20.29.07:090][949]LogPlayLevel: PIE: World Init took: (0.002535s)
+[2024.06.26-20.29.07:090][949]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.06.26-20.29.07:090][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.26-20.29.07:090][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.26-20.29.07:090][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.26-20.29.07:090][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.26-20.29.07:090][949]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.26-20.29.07:090][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.26-20.29.07:090][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.26-20.29.07:090][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.26-20.29.07:092][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.26-20.29.07:092][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.26-20.29.07:092][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.26-20.29.07:096][949]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.26-20.29.07:136][949]LogAudioMixer: Display: Using Audio Hardware Device G32QC A (NVIDIA High Definition Audio)
+[2024.06.26-20.29.07:138][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.26-20.29.07:138][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.26-20.29.07:138][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.26-20.29.07:140][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.06.26-20.29.07:140][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.06.26-20.29.07:143][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.06.26-20.29.07:143][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.06.26-20.29.07:143][949]LogInit: FAudioDevice initialized with ID 6.
+[2024.06.26-20.29.07:143][949]LogAudio: Display: Audio Device (ID: 6) registered with world 'Map_MuseumV3'.
+[2024.06.26-20.29.07:143][949]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.26-20.29.07:152][949]LogLoad: Game class is 'BP_DemoGameMode_C'
+[2024.06.26-20.29.07:839][949]LogWorld: Bringing World /Game/VRGK/Demo/Maps/MuseumV3/UEDPIE_0_Map_MuseumV3.Map_MuseumV3 up for play (max tick rate 0) at 2024.06.26-21.29.07
+[2024.06.26-20.29.07:850][949]LogWorld: Bringing up level for play took: 0.204809
+[2024.06.26-20.29.07:857][949]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.06.26-20.29.07:947][949]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] No
+[2024.06.26-20.29.07:974][949]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.06.26-20.29.07:980][949]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.06.26-20.29.07:987][949]PIE: Server logged in
+[2024.06.26-20.29.07:990][949]PIE: Play in editor total start time 1.277 seconds.
+[2024.06.26-20.29.07:996][949]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:082][949]LogHMD: SetSpectatorScreenMode(5).
+[2024.06.26-20.29.08:242][950]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2024.06.26-20.29.08:255][950]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:257][950]LogBlueprintUserMessages: [BP_NonVRGamePawnInputHandler_C_0] WARNING: NonVR Input Handler is active!
+[2024.06.26-20.29.08:389][951]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:503][952]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:612][953]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:715][954]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:804][955]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:887][956]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.08:957][957]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:012][958]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:062][959]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:111][960]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:156][961]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:200][962]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:242][963]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:286][964]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:330][965]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:368][966]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:408][967]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:450][968]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:492][969]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:533][970]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:571][971]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:609][972]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:650][973]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:690][974]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:727][975]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:763][976]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:802][977]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:843][978]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:884][979]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:922][980]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.09:963][981]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:004][982]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:044][983]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:084][984]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:127][985]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:170][986]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:216][987]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:263][988]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:313][989]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:359][990]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:404][991]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:448][992]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:495][993]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:537][994]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:579][995]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:621][996]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:661][997]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:698][998]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:741][999]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:783][  0]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:825][  1]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:864][  2]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:906][  3]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:949][  4]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.10:994][  5]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:037][  6]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:077][  7]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:120][  8]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:164][  9]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:209][ 10]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:253][ 11]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:300][ 12]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:340][ 13]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:382][ 14]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:426][ 15]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:470][ 16]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:516][ 17]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:559][ 18]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:604][ 19]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:647][ 20]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:685][ 21]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:730][ 22]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:773][ 23]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:816][ 24]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:856][ 25]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:896][ 26]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:936][ 27]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.11:979][ 28]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:019][ 29]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:058][ 30]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:100][ 31]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:140][ 32]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:182][ 33]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:223][ 34]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:263][ 35]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:301][ 36]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:343][ 37]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:391][ 38]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:435][ 39]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:479][ 40]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:528][ 41]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:569][ 42]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:610][ 43]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:654][ 44]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:700][ 45]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:739][ 46]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:781][ 47]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:818][ 48]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:859][ 49]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:900][ 50]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:940][ 51]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.12:982][ 52]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:019][ 53]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:053][ 54]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:088][ 55]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:123][ 56]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:157][ 57]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:189][ 58]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:229][ 59]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:265][ 60]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:306][ 61]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:352][ 62]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:400][ 63]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:445][ 64]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:490][ 65]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:530][ 66]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:580][ 67]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:626][ 68]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:667][ 69]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:710][ 70]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:756][ 71]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:803][ 72]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:847][ 73]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:889][ 74]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:936][ 75]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.13:978][ 76]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:026][ 77]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:070][ 78]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:112][ 79]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:151][ 80]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:195][ 81]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:242][ 82]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:285][ 83]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:324][ 84]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:362][ 85]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:401][ 86]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:440][ 87]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:484][ 88]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:525][ 89]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:569][ 90]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:611][ 91]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:653][ 92]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:696][ 93]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:735][ 94]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:778][ 95]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:821][ 96]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:865][ 97]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:910][ 98]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.14:959][ 99]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:002][100]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:043][101]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:089][102]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:130][103]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:172][104]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:212][105]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:252][106]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:293][107]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:333][108]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:369][109]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:410][110]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:450][111]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:488][112]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:527][113]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:570][114]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:610][115]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:653][116]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:695][117]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:732][118]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:773][119]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:816][120]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:856][121]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:900][122]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:943][123]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.15:985][124]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:026][125]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:075][126]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:120][127]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:169][128]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:214][129]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:262][130]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:310][131]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:356][132]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:404][133]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:452][134]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:496][135]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:539][136]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:584][137]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:629][138]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:670][139]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:715][140]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:760][141]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:803][142]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:851][143]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:895][144]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:941][145]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.16:985][146]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:028][147]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:071][148]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:115][149]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:155][150]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:197][151]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:239][152]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:280][153]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:320][154]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:361][155]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:402][156]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:443][157]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:484][158]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:528][159]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:572][160]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:616][161]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:657][162]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:695][163]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:733][164]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:769][165]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:805][166]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:840][167]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:873][168]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:909][169]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:944][170]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.17:984][171]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:025][172]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:060][173]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:096][174]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:132][175]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:173][176]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:216][177]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:253][178]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:289][179]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:327][180]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:367][181]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:407][182]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:450][183]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:489][184]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:530][185]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:569][186]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:619][187]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:660][188]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:706][189]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:749][190]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:785][191]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:823][192]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:863][193]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:900][194]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:936][195]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.18:970][196]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:007][197]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:045][198]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:082][199]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:116][200]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:152][201]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:187][202]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:224][203]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:264][204]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:304][205]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:346][206]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:386][207]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:427][208]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:470][209]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:511][210]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:556][211]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:600][212]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:646][213]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:690][214]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:730][215]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:775][216]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:820][217]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:862][218]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:903][219]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:943][220]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.19:982][221]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:020][222]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:056][223]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:092][224]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:130][225]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:169][226]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:206][227]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:240][228]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:276][229]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:309][230]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:342][231]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:374][232]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:406][233]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:443][234]LogBlueprintUserMessages: [BP_VRCharacterPawn_C_0] Hello
+[2024.06.26-20.29.20:484][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.26-20.29.20:484][234]LogWorld: BeginTearingDown for /Game/VRGK/Demo/Maps/MuseumV3/UEDPIE_0_Map_MuseumV3
+[2024.06.26-20.29.20:496][234]LogWorld: UWorld::CleanupWorld for Map_MuseumV3, bSessionEnded=true, bCleanupResources=true
+[2024.06.26-20.29.20:519][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.29.20:530][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.26-20.29.20:554][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.26-20.29.20:614][234]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.26-20.29.20:614][234]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.26-20.29.20:614][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.26-20.29.20:617][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.26-20.29.20:627][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.26-20.29.20:666][234]LogSlate: Slate User Unregistered.  User Index 8
+[2024.06.26-20.29.20:666][234]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.06.26-20.29.20:673][234]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2024.06.26-20.29.20:813][235]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.06.26-20.29.20:836][235]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.06.26-20.29.27:093][455]LogSlate: Took 0.000663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.26-20.29.27:176][456]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.29.27:268][457]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.29.28:364][502]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3.Map_MuseumV3:PersistentLevel.Map_MuseumV3
+[2024.06.26-20.29.28:365][502]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.26-20.29.28:365][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.26-20.29.41:346][283]BlueprintLog: New page: Compile Map_MuseumV3
+[2024.06.26-20.29.41:468][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.06.26-20.29.45:076][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.06.26-20.29.47:027][476]LogSlate: Window 'Save Content' being destroyed
+[2024.06.26-20.29.47:050][476]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.26-20.29.47:150][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.06.26-20.29.47:802][476]LogSavePackage: Moving output files for package: /Game/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3
+[2024.06.26-20.29.47:802][476]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/Map_MuseumV36CB6D4344A9DDAA8CBE4A79CBB2DFC0B.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3.umap'
+[2024.06.26-20.29.47:832][476]LogFileHelpers: Saving map 'Map_MuseumV3' took 0.740
+[2024.06.26-20.29.47:916][476]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/GamePawns/BP_VRCharacterPawn
+[2024.06.26-20.29.47:916][476]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRCharacterPawnCD475DCE4206C632E748FFB6CACF8428.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/GamePawns/BP_VRCharacterPawn.uasset'
+[2024.06.26-20.29.47:926][476]LogFileHelpers: InternalPromptForCheckoutAndSave took 876 ms (total: 2.35 sec)
+[2024.06.26-20.29.47:947][476]LogAutomationController: Ignoring very large delta of 2.91 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.29.47:967][477]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.26-20.29.47:967][477]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3.Map_MuseumV3
+[2024.06.26-20.29.47:967][477]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/GamePawns/BP_VRCharacterPawn.BP_VRCharacterPawn
+[2024.06.26-20.32.11:340][407]BlueprintLog: New page: Compile BP_NonVRGamePawnInputHandler
+[2024.06.26-20.32.11:566][407]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2024.06.26-20.32.11:749][407]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.32.11:749][407]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.32.11:871][407]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.32.11:871][407]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.12:792][461]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.12:792][461]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.18:401][598]BlueprintLog: New page: Compile BP_VRBasePawn
+[2024.06.26-20.33.20:429][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:429][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:432][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:432][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:435][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:435][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:441][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:441][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:449][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:449][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:552][598]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2024.06.26-20.33.20:884][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:884][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:996][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.20:996][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:028][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:028][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:038][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:038][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:047][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:047][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:151][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:152][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:328][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:328][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:360][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:360][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:394][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:394][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:404][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:404][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:449][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:449][598]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.33.21:893][598]LogAutomationController: Ignoring very large delta of 3.49 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.33.27:464][738]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.33.27:550][738]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2024.06.26-20.33.28:722][738]LogSlate: Window 'Save Content' being destroyed
+[2024.06.26-20.33.28:769][738]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.26-20.33.28:897][738]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2024.06.26-20.33.29:793][738]LogSavePackage: Moving output files for package: /Game/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3
+[2024.06.26-20.33.29:794][738]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/Map_MuseumV3F0C11ACC4A26845ADBD87B93C712EE94.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3.umap'
+[2024.06.26-20.33.29:962][738]LogFileHelpers: Saving map 'Map_MuseumV3' took 1.135
+[2024.06.26-20.33.30:039][738]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/NonVR/BP_NonVRGamePawnInputHandler
+[2024.06.26-20.33.30:040][738]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_NonVRGamePawnInputHandler47F3852042F34D3CBC919EAAC9BD84BA.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/NonVR/BP_NonVRGamePawnInputHandler.uasset'
+[2024.06.26-20.33.30:216][738]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn
+[2024.06.26-20.33.30:217][738]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRBasePawn0C0945F540346BF3B60A9985C677C5AE.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.uasset'
+[2024.06.26-20.33.30:349][738]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/GamePawns/BP_VRCharacterPawn
+[2024.06.26-20.33.30:349][738]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRCharacterPawn95916D8D410216FDD2F6289382870276.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/GamePawns/BP_VRCharacterPawn.uasset'
+[2024.06.26-20.33.30:676][738]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn
+[2024.06.26-20.33.30:676][738]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRGamePawnD95890FD49FEEC2BA741E386556B5A55.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn.uasset'
+[2024.06.26-20.33.30:722][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn" FILE="M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn.uasset" SILENT=true
+[2024.06.26-20.33.30:761][738]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn
+[2024.06.26-20.33.30:761][738]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRMenuPawnCD81E693417D95DA12F4D09ED826B7C6.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn.uasset'
+[2024.06.26-20.33.31:199][738]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn
+[2024.06.26-20.33.31:199][738]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRPhysicsPawnF65DD6E74054581954D031A3AFAFEDD3.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn.uasset'
+[2024.06.26-20.33.31:227][738]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.45 sec (total: 4.80 sec)
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: Total job queries 292, among them cache hits 37 (12.67%)
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: Tracking 255 distinct input hashes that result in 150 distinct outputs (58.82%)
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: RAM used: 0.97 MiB of 1.20 GiB budget. Usage: 0.08%
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.26-20.33.31:243][738]LogShaderCompilers: Display: ================================================
+[2024.06.26-20.33.31:260][738]LogAutomationController: Ignoring very large delta of 3.80 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.33.33:391][739]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.26-20.33.33:391][739]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRGK/Demo/Maps/MuseumV3/Map_MuseumV3.Map_MuseumV3
+[2024.06.26-20.33.33:391][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/NonVR/BP_NonVRGamePawnInputHandler.BP_NonVRGamePawnInputHandler
+[2024.06.26-20.33.33:391][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.BP_VRBasePawn
+[2024.06.26-20.33.33:391][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/GamePawns/BP_VRCharacterPawn.BP_VRCharacterPawn
+[2024.06.26-20.33.33:391][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRGamePawn.BP_VRGamePawn
+[2024.06.26-20.33.33:391][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/Menu/BP_VRMenuPawn.BP_VRMenuPawn
+[2024.06.26-20.33.33:391][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/GamePawns/PhysicsPawn/BP_VRPhysicsPawn.BP_VRPhysicsPawn
+[2024.06.26-20.33.33:442][739]LogAutomationController: Ignoring very large delta of 2.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.26-20.34.33:501][904]BlueprintLog: New page: Compile BP_VRBasePawn
+[2024.06.26-20.34.34:276][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:276][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:278][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:278][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:279][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:279][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:281][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:281][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:285][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:285][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:339][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2024.06.26-20.34.34:419][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:419][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:476][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:476][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:496][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:496][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:500][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:500][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:505][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:505][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:527][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:527][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:622][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:623][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:639][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:639][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:658][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:658][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:663][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:663][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:686][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.34:686][904]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2024.06.26-20.34.48:826][694]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2024.06.26-20.35.10:918][904]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.35.10:974][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.06.26-20.35.12:520][904]LogSlate: Window 'Save Content' being destroyed
+[2024.06.26-20.35.12:552][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.26-20.35.12:732][904]LogSavePackage: Moving output files for package: /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn
+[2024.06.26-20.35.12:732][904]LogSavePackage: Moving 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Saved/BP_VRBasePawn61DCD7B44F46269A427369A396A8B9AA.tmp' to 'M:/Unreal Projects/Tradeshow/VRGK_Multiplayer/Content/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.uasset'
+[2024.06.26-20.35.12:747][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 5.00 sec)
+[2024.06.26-20.35.12:774][905]AssetCheck: New page: Asset Save: BP_VRBasePawn
+[2024.06.26-20.35.12:774][905]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRGK/Blueprints/Player/PlayerCore/BP_VRBasePawn.BP_VRBasePawn
+[2024.06.26-20.37.29:902][254]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.37.29:940][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.06.26-20.38.29:068][584]LogHMD: FOpenXRHMD is requesting app exit.  CurrentSessionState: XR_SESSION_STATE_UNKNOWN
+[2024.06.26-20.39.40:657][121]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.06.26-20.39.40:705][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2024.06.26-20.42.49:543][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
